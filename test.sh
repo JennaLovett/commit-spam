@@ -33,7 +33,7 @@ read -p "Enter your github repository address: " GHADDRESS
 echo "Address: $GHADDRESS."
 
 #adding repo
-env -i git remote add origin $GHADDRESS
+env git remote add origin $GHADDRESS
 
 #pushing to github
-env -i git push -u origin master
+env git push -u origin master
