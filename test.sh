@@ -36,4 +36,4 @@ echo "Address: $GHADDRESS."
 env git remote add origin $GHADDRESS
 
 #pushing to github
-env git push -u origin master
+env git push -u origin master:master
